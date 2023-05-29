@@ -187,7 +187,7 @@ section:not(#home)>div:first-of-type {
 
 #home::before {
     content: '';
-    background: url('img/helloBg.jpg');
+    background: url('img/helloBg2.jpg');
     background-size: auto 100%;
     background-position: center right;
     opacity: 0.2;
