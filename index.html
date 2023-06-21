@@ -1,330 +1,391 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<link rel="icon" href="img/favicon.png" />
-	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<meta name="theme-color" content="#000000" />
-	<meta http-equiv='content-type' content='text/html; charset=utf-8' />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Roboto:wght@300;400&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="styles.css">
-	<link rel="apple-touch-icon" href="img/jf.png" />
-	<!--
+  <head>
+    <link rel="icon" href="img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="apple-touch-icon" href="img/jf.png" />
+    <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-	<link rel="manifest" href="manifest.json" />
-	<title>Jaimefarnan.com</title>
-	<script type="application/ld+json">
-		{
-			"@context" : "http://schema.org",
-			"@type" : "Website",
-			"mainEntityOfPage": {
-				"@type": "WebPage",
-				"@id": "https://jaimefarnan.com"
-			},
-			"name" : "Jaime",
-			"image": [
-				"https://jaimefarnan.com/img/jf.png",
-				"https://jaimefarnan.com/img/helloBg2.jpg"
-      		]
-		}
-	</script>
-</head>
-</head>
+    <link rel="manifest" href="manifest.json" />
+    <title>Jaimefarnan.com</title>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Website",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jaimefarnan.com"
+        },
+        "name": "Jaime",
+        "image": ["https://jaimefarnan.com/img/jf.png", "https://jaimefarnan.com/img/helloBg2.jpg"]
+      }
+    </script>
+  </head>
 
-<body>
-	<main>
-		<section id='home'>
-			<div>
-				<h1>
-					Hi! I'm Jaime</h1>
-				<h2>I am a
-					<ul>
-						<li>full stack engineer</li>
-						<li>seeker of compassion</li>
-						<li>web developer</li>
-						<li>passionate creative</li>
-					</ul>
-				</h2>
-				<a href='#professional' aria-label='next section'></a>
-			</div>
-		</section>
-		<nav>
-			<a href='#home'>Home</a>
-			<a href='#professional'>Professional</a>
-			<a href='#apps'>Apps</a>
-			<a href='#about'>Me</a>
-		</nav>
-		<section id='professional'>
-			<div>
-				<h1>Professional History</h1>
-				<div class='link-callout'>
-					<a href='resume.pdf'>
-						<span><img src='img/pdf.png' alt='pdf logo' /></span>
-						<span>View my resume</span>
-					</a>
-				</div>
-			</div>
-			<div class='reveal'>
-				<div>
-					<img src='img/EasyKnock.png' alt='EasyKnock' />
-				</div>
-				<div>
-					<p><strong>Company:</strong> EasyKnock</p>
-					<p><strong>Role:</strong> Lead Engineer | 2022-2023</p>
-					<p><strong>Description:</strong> EasyKnock is a modern-day alternative to home equity loans. In July 2022, I
-						took over managing a team halfway through a site overhaul while the head of technology was out on paternity
-						leave. Talk about being thrown into the deep end! This was an incredible opportunity for me to lead by
-						example, lead with empathy, and let my coding skills shine. I quickly ramped up on our tech stack
-						(Next.js, Prismic, Styled Components) to steer us to a successful deployment of a spiffy new website,
-						enhanced security, worked closely with our Product team to define roadmaps and with Marketing to provide
-						analytics support (Segment, Google Optimize, HubSpot), and managed and mentored an amazing group of
-						engineers.</p>
-					<p class='career-highlights'><strong>Career Highlights:</strong></p>
-					<ul>
-						<li>Increased sales leads by fixing a very old bug predating my tenure at the company</li>
-						<li>Improved our TypeScript usage, tests, a11y standards, and documentation</li>
-						<li>Member of the company's Diversity Equity and Inclusion (DEI) committee and championed updating our
-							branching nomenclature from "master" to "main"</li>
-						<li>Helped another team on an as-needed basis working with NestJS, TypeORM, GCP and AWS.</li>
-					</ul>
-				</div>
-			</div>
-			<div class='reveal'>
-				<div>
-					<img src='img/Pluralsight.png' alt='Pluralsight' />
-				</div>
-				<div>
-					<p><strong>Company:</strong> Pluralsight</p>
-					<p><strong>Role:</strong> Full-stack Software Engineer | 2018-2022</p>
-					<p><strong>Description:</strong> Online, on-demand training and team development made easy. At Pluralsight, I
-						started out leading
-						frontend initiatives with React on our Skills Development Leader product. I also learned Python to develop
-						APIs that
-						communicated with a Postgres database and RabbitMQ's messaging services. On the Content Assessment Tools
-						team, I
-						relished the opportunity working closely with our customers, building solutions to their delight. I also
-						worked on the Search
-						team where I learned more about a11y standards and broadened my skill set with TypeScript.</p>
-					<p class='career-highlights'><strong>Career Highlights:</strong></p>
-					<ul>
-						<li>Tech lead for Content Assessment Tools 2020-2021, ensuring data clarity across bounded contexts and
-							quick response times
-							to team inquiries</li>
-						<li>Pared down a 2-week estimate into a 2-day turnaround for a CSS dashboard</li>
-						<li>Mentored a software apprentice from co-op to full-time hire through goal-setting, code-review training
-							and pair
-							programming</li>
-					</ul>
-				</div>
-			</div>
-			<div class='reveal'>
-				<div>
-					<img src='img/BzzAgent.jpg' alt='BzzAgent' />
-				</div>
-				<div>
-					<p><strong>Company:</strong> BzzAgent (pronounced, "Buzz Agent")</p>
-					<p><strong>Role:</strong> Web Developer | 2011-2018</p>
-					<p><strong>Description:</strong> Using products and writing reviews...ahhhhh the tried-and-true method of
-						getting free stuff! At
-						BzzAgent, I worked very closely with our Account Managers to deliver each "BzzCampaign", often with same-day
-						turnaround. This
-						role was packed with CSS work. The language became my wheelhouse as I worked closely with our designers to
-						beautify our site,
-						but I also provided updates to our JavaScript code and ended up writing the entire suite of unit tests for
-						our Angular 1.x
-						application before leaving.</p>
-					<p class='career-highlights'><strong>Career Highlights:</strong></p>
-					<ul>
-						<li>From zero to fully functional web app, single-handedly produced a B2B site in 3 weeks</li>
-						<li>Lead frontend developer on our final site redesign (prior to company acquisition and what we see now at
-							BzzAgent.com)</li>
-						<li>Team SME for responsive HTML email templates across browsers, platforms and multiple email clients</li>
-					</ul>
-				</div>
-			</div>
-			<div class='reveal'>
-				<div>
-					<img src='img/Jcics.jpg' alt="Joint Council on international children's services" />
-				</div>
-				<div>
-					<p><strong>Company:</strong> Joint Council on international children's services</p>
-					<p><strong>Role:</strong> Volunteer Web Developer | 2011-2014</p>
-					<p><strong>Description:</strong> Upon completion of a 3-week practicum project to complete my Web Development
-						Cerftification
-						through <em>Boston University's Center for Digital Imaging Arts</em>, I continued to serve Joint Council on
-						an as-needed,
-						volunteer basis. The company and site no longer exist, but it was a custom WordPress site based on designer
-						mockups.</p>
-				</div>
-			</div>
-		</section>
-		<section id='apps'>
-			<div>
-				<h1>Apps</h1>
-				<h2>I love building web apps so I can give them <strong>my own style and feel</strong></h2>
-			</div>
-			<div class='reveal'>
-				<div>
-					<img src='img/merchantMillArcade.png' alt='Merchant Mill Arcade logo' />
-				</div>
-				<div>
-					<p><strong>Project:</strong> Merchant Mill Arcade</p>
-					<p><strong>Status:</strong> In "Code Purgatory", but <a
-							href='https://github.com/dannytannertantrum/merchant-mill-arcade' target='_blank'>view it on GitHub</a>
-					</p>
-					<p><strong>Stack/tools:</strong> Node.js, fastify, TypeScript, JavaScript, React, Postgres, Slonik, goober</p>
-					<p><strong>Description:</strong> Being spread out from family is hard. As a way to stay connected, I'm
-						building the Merchant Mill
-						Arcade - a place for us to log high scores from our favorite arcade classics. We'll be able to see who's on
-						the leaderboard
-						for each game, add new games to the arcade as we play them, and talk trash to each other (a v2 feature).
-						Keep it honest...or
-						you're outta the family!</p>
-					<p><strong>Note: </strong>Even though the last time I touched this code was only ~1 year ago, there are many
-						things I'd update if I ever return to this project. I'm always learning and growing!
-					</p>
-				</div>
-			</div>
-			<div class='reveal'>
-				<div>
-					<img src='img/groceries.png' alt='grocery app screenshot' />
-				</div>
-				<div>
-					<p><strong>Project:</strong> Groceries</p>
-					<p><strong>Status:</strong> Done - <a target="_blank" href="https://groceries.jaimefarnan.com">use it here</a>
-						or <a href='https://github.com/dannytannertantrum/groceries' target='_blank'>view it on GitHub</a>
-					</p>
-					<p><strong>Stack/tools:</strong> Entirely frontend; bootstrapped with Create-React-App and uses local storage
-					</p>
-					<p><strong>Description:</strong> I was happy enough using the ColorNote app on my phone for keeping a grocery
-						list, but I wanted
-						to give it my own flavor. I frequent Wegmans and Costco the most, so this allows me to filter by store (or
-						alphabetically),
-						and gives me that nerdy, terminal-style dark/bright-green theme with some hot magenta thrown in. If you
-						enjoy it, by all means
-						use it! Just remember, it uses local storage. If you clear history on your device, make sure
-						<em>groceries.jaimefarnan.com</em> is on your list of sites to exempt from being cleared.
-					</p>
-				</div>
-			</div>
-			<div class='reveal'>
-				<div>
-					<img src='img/timer.png' alt='timer app screenshot' />
-				</div>
-				<div>
-					<p><strong>Project:</strong> EMOM / Tabata Timer</p>
-					<p><strong>Status:</strong> Done - <a target="_blank" href="https://timer.jaimefarnan.com">use it here</a> or
-						<a href='https://github.com/dannytannertantrum/emom-tabata-timer' target='_blank'>view it on GitHub</a>
-					</p>
-					<p><strong>Stack/tools:</strong> Vanilla HTML/CSS/JS</p>
-					<p><strong>Description:</strong> Tabata: Typically, it's 20 seconds of intense exercise followed by 10 seconds
-						of rest. Repeat the
-						cycle for a total of 4 minutes. But really, you can customize the intervals however you like. If you enjoy
-						finding hidden gems
-						in <em>The Legend of Zelda</em>, give it a try!</p>
-				</div>
-			</div>
-		</section>
-		<section id='about'>
-			<div>
-				<h1>About Me</h1>
-				<div class='link-callout'>
-					<a href='mailto:jaimefarnan@gmail.com'>
-						<span><img src='img/envelope.png' alt='envelope' /></span>
-						<span>Send me an email</span>
-					</a>
-				</div>
-			</div>
-			<div class='reveal'>
-				<div>
-					<img src='img/valentine.png' alt='valentine' />
-				</div>
-				<div>
-					<p><strong>Well, hello there!</strong> Do you like Valentine's Day and coasters? Because the graphic in this
-						section is the 2022
-						installment of custom valentines I create and mail out each year to family, friends and coworkers. What
-						started as a crude,
-						college-humor joke turned into a tradition I look forward to every February.
-					</p>
-					<h2><strong>So what else about me?</strong></h2>
-					<p>I love what I do. I'm passionate about software engineering, belonging, and enjoy the process of bringing
-						ideas to life! I probably enjoy it because it's a form of creation; I LOVE creating. Outside of being a
-						nerd...well...I'm still a nerd, but
-						outside of the software world, I love <a href='https://www.youtube.com/watch?v=QdrRuEfdr6g'
-							target='_blank'>creating
-							music</a>, poetry and comedy.</p>
-					<p>Lastly, doing life with people and relationships are <strong>EVERYTHING</strong> to me. My friends and I
-						partner with a family
-						in the Dominican Republic. We set up a giving fund through a 501 (c)(3) in order to provide monthly
-						financial support for them
-						to serve Santa Lucia, a community that sprung up on the city garbage dump. Aptly nicknamed, <em>La
-							Mosca</em> ("fly" in
-						Spanish), we've been making annual trips there for over a decade to love and serve alongside our friends.
-						Really though,
-						they're family.</p>
-				</div>
-			</div>
-			<div class='back'>
-				<a href='#home' aria-label='link to top of the page'></a>
-				<p>Back to the top</p>
-			</div>
-		</section>
-	</main>
-	<script>
-		const sections = document.querySelectorAll('section')
-		const nav = document.querySelectorAll('nav a')
+  <body>
+    <main>
+      <section id="home">
+        <div>
+          <h1>Hi! I'm Jaime</h1>
+          <h2>
+            I am a
+            <ul>
+              <li>full stack engineer</li>
+              <li>seeker of compassion</li>
+              <li>web developer</li>
+              <li>passionate creative</li>
+            </ul>
+          </h2>
+          <a href="#professional" aria-label="next section"></a>
+        </div>
+      </section>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#professional">Professional</a>
+        <a href="#apps">Apps</a>
+        <a href="#about">Me</a>
+      </nav>
+      <section id="professional">
+        <div>
+          <h1>Professional History</h1>
+          <div class="link-callout">
+            <a href="resume.pdf">
+              <span><img src="img/pdf.png" alt="pdf logo" /></span>
+              <span>View my resume</span>
+            </a>
+          </div>
+        </div>
+        <div class="reveal">
+          <div>
+            <img src="img/EasyKnock.png" alt="EasyKnock" />
+          </div>
+          <div>
+            <p><strong>Company:</strong> EasyKnock</p>
+            <p><strong>Role:</strong> Lead Engineer | 2022-2023</p>
+            <p>
+              <strong>Description:</strong> EasyKnock is a modern-day alternative to home equity
+              loans. In July 2022, I took over managing a team halfway through a site overhaul while
+              the head of technology was out on paternity leave. Talk about being thrown into the
+              deep end! This was an incredible opportunity for me to lead by example, lead with
+              empathy, and let my coding skills shine. I quickly ramped up on our tech stack
+              (Next.js, Prismic, Styled Components) to steer us to a successful deployment of a
+              spiffy new website, enhanced security, worked closely with our Product team to define
+              roadmaps and with Marketing to provide analytics support (Segment, Google Optimize,
+              HubSpot), and managed and mentored an amazing group of engineers.
+            </p>
+            <p class="career-highlights"><strong>Career Highlights:</strong></p>
+            <ul>
+              <li>
+                Increased sales leads by fixing a very old bug predating my tenure at the company
+              </li>
+              <li>Improved our TypeScript usage, tests, a11y standards, and documentation</li>
+              <li>
+                Member of the company's Diversity Equity and Inclusion (DEI) committee and
+                championed updating our branching nomenclature from "master" to "main"
+              </li>
+              <li>
+                Helped another team on an as-needed basis working with NestJS, TypeORM, GCP and AWS.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="reveal">
+          <div>
+            <img src="img/Pluralsight.png" alt="Pluralsight" />
+          </div>
+          <div>
+            <p><strong>Company:</strong> Pluralsight</p>
+            <p><strong>Role:</strong> Full-stack Software Engineer | 2018-2022</p>
+            <p>
+              <strong>Description:</strong> Online, on-demand training and team development made
+              easy. At Pluralsight, I started out leading frontend initiatives with React on our
+              Skills Development Leader product. I also learned Python to develop APIs that
+              communicated with a Postgres database and RabbitMQ's messaging services. On the
+              Content Assessment Tools team, I relished the opportunity working closely with our
+              customers, building solutions to their delight. I also worked on the Search team where
+              I learned more about a11y standards and broadened my skill set with TypeScript.
+            </p>
+            <p class="career-highlights"><strong>Career Highlights:</strong></p>
+            <ul>
+              <li>
+                Tech lead for Content Assessment Tools 2020-2021, ensuring data clarity across
+                bounded contexts and quick response times to team inquiries
+              </li>
+              <li>Pared down a 2-week estimate into a 2-day turnaround for a CSS dashboard</li>
+              <li>
+                Mentored a software apprentice from co-op to full-time hire through goal-setting,
+                code-review training and pair programming
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="reveal">
+          <div>
+            <img src="img/BzzAgent.jpg" alt="BzzAgent" />
+          </div>
+          <div>
+            <p><strong>Company:</strong> BzzAgent (pronounced, "Buzz Agent")</p>
+            <p><strong>Role:</strong> Web Developer | 2011-2018</p>
+            <p>
+              <strong>Description:</strong> Using products and writing reviews...ahhhhh the
+              tried-and-true method of getting free stuff! At BzzAgent, I worked very closely with
+              our Account Managers to deliver each "BzzCampaign", often with same-day turnaround.
+              This role was packed with CSS work. The language became my wheelhouse as I worked
+              closely with our designers to beautify our site, but I also provided updates to our
+              JavaScript code and ended up writing the entire suite of unit tests for our Angular
+              1.x application before leaving.
+            </p>
+            <p class="career-highlights"><strong>Career Highlights:</strong></p>
+            <ul>
+              <li>
+                From zero to fully functional web app, single-handedly produced a B2B site in 3
+                weeks
+              </li>
+              <li>
+                Lead frontend developer on our final site redesign (prior to company acquisition and
+                what we see now at BzzAgent.com)
+              </li>
+              <li>
+                Team SME for responsive HTML email templates across browsers, platforms and multiple
+                email clients
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="reveal">
+          <div>
+            <img src="img/Jcics.jpg" alt="Joint Council on international children's services" />
+          </div>
+          <div>
+            <p><strong>Company:</strong> Joint Council on international children's services</p>
+            <p><strong>Role:</strong> Volunteer Web Developer | 2011-2014</p>
+            <p>
+              <strong>Description:</strong> Upon completion of a 3-week practicum project to
+              complete my Web Development Cerftification through
+              <em>Boston University's Center for Digital Imaging Arts</em>, I continued to serve
+              Joint Council on an as-needed, volunteer basis. The company and site no longer exist,
+              but it was a custom WordPress site based on designer mockups.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="apps">
+        <div>
+          <h1>Apps</h1>
+          <h2>
+            I love building web apps so I can give them <strong>my own style and feel</strong>
+          </h2>
+        </div>
+        <div class="reveal">
+          <div>
+            <img src="img/merchantMillArcade.png" alt="Merchant Mill Arcade logo" />
+          </div>
+          <div>
+            <p><strong>Project:</strong> Merchant Mill Arcade</p>
+            <p>
+              <strong>Status:</strong> In "Code Purgatory", but
+              <a href="https://github.com/dannytannertantrum/merchant-mill-arcade" target="_blank"
+                >view it on GitHub</a
+              >
+            </p>
+            <p>
+              <strong>Stack/tools:</strong> Node.js, fastify, TypeScript, JavaScript, React,
+              Postgres, Slonik, goober
+            </p>
+            <p>
+              <strong>Description:</strong> Being spread out from family is hard. As a way to stay
+              connected, I'm building the Merchant Mill Arcade - a place for us to log high scores
+              from our favorite arcade classics. We'll be able to see who's on the leaderboard for
+              each game, add new games to the arcade as we play them, and talk trash to each other
+              (a v2 feature). Keep it honest...or you're outta the family!
+            </p>
+            <p>
+              <strong>Note: </strong>Even though the last time I touched this code was only ~1 year
+              ago, there are so many things I'd update if I ever return to this project. Things I'd
+              focus on first:
+            </p>
+            <ul>
+              <li>
+                Use
+                <a href="https://styled-components.com/" target="_blank">Styled Components</a> or
+                <a href="https://emotion.sh/docs/introduction" target="_blank">Emotion</a> to create
+                more declarative code
+              </li>
+              <li>
+                Build my own custom components and organize them using
+                <a href="https://bradfrost.com/blog/post/atomic-web-design/" target="_blank"
+                  >Atomic Design principles</a
+                >
+              </li>
+              <li>
+                Use
+                <a
+                  href="https://testing-library.com/docs/react-testing-library/intro/"
+                  target="_blank"
+                  >React Testing Library</a
+                >
+                for front-end testing because I never got around to that part of the project
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="reveal">
+          <div>
+            <img src="img/groceries.png" alt="grocery app screenshot" />
+          </div>
+          <div>
+            <p><strong>Project:</strong> Groceries</p>
+            <p>
+              <strong>Status:</strong> Done -
+              <a target="_blank" href="https://groceries.jaimefarnan.com">use it here</a> or
+              <a href="https://github.com/dannytannertantrum/groceries" target="_blank"
+                >view it on GitHub</a
+              >
+            </p>
+            <p>
+              <strong>Stack/tools:</strong> Entirely frontend; bootstrapped with Create-React-App
+              and uses local storage
+            </p>
+            <p>
+              <strong>Description:</strong> I was happy enough using the ColorNote app on my phone
+              for keeping a grocery list, but I wanted to give it my own flavor. I frequent Wegmans
+              and Costco the most, so this allows me to filter by store (or alphabetically), and
+              gives me that nerdy, terminal-style dark/bright-green theme with some hot magenta
+              thrown in. If you enjoy it, by all means use it! Just remember, it uses local storage.
+              If you clear history on your device, make sure <em>groceries.jaimefarnan.com</em> is
+              on your list of sites to exempt from being cleared.
+            </p>
+          </div>
+        </div>
+        <div class="reveal">
+          <div>
+            <img src="img/timer.png" alt="timer app screenshot" />
+          </div>
+          <div>
+            <p><strong>Project:</strong> EMOM / Tabata Timer</p>
+            <p>
+              <strong>Status:</strong> Done -
+              <a target="_blank" href="https://timer.jaimefarnan.com">use it here</a> or
+              <a href="https://github.com/dannytannertantrum/emom-tabata-timer" target="_blank"
+                >view it on GitHub</a
+              >
+            </p>
+            <p><strong>Stack/tools:</strong> Vanilla HTML/CSS/JS</p>
+            <p>
+              <strong>Description:</strong> Tabata: Typically, it's 20 seconds of intense exercise
+              followed by 10 seconds of rest. Repeat the cycle for a total of 4 minutes. But really,
+              you can customize the intervals however you like. If you enjoy finding hidden gems in
+              <em>The Legend of Zelda</em>, give it a try!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div>
+          <h1>About Me</h1>
+          <div class="link-callout">
+            <a href="mailto:jaimefarnan@gmail.com">
+              <span><img src="img/envelope.png" alt="envelope" /></span>
+              <span>Send me an email</span>
+            </a>
+          </div>
+        </div>
+        <div class="reveal">
+          <div>
+            <img src="img/valentine.png" alt="valentine" />
+          </div>
+          <div>
+            <p>
+              <strong>Well, hello there!</strong> Do you like Valentine's Day and coasters? Because
+              the graphic in this section is the 2022 installment of custom valentines I create and
+              mail out each year to family, friends and coworkers. What started as a crude,
+              college-humor joke turned into a tradition I look forward to every February.
+            </p>
+            <h2><strong>So what else about me?</strong></h2>
+            <p>
+              I love what I do. I'm passionate about software engineering, belonging, and enjoy the
+              process of bringing ideas to life! I probably enjoy it because it's a form of
+              creation; I LOVE creating. Outside of being a nerd...well...I'm still a nerd, but
+              outside of the software world, I love
+              <a href="https://www.youtube.com/watch?v=QdrRuEfdr6g" target="_blank"
+                >creating music</a
+              >, poetry and comedy.
+            </p>
+            <p>
+              Lastly, doing life with people and relationships are <strong>EVERYTHING</strong> to
+              me. My friends and I partner with a family in the Dominican Republic. We set up a
+              giving fund through a 501 (c)(3) in order to provide monthly financial support for
+              them to serve Santa Lucia, a community that sprung up on the city garbage dump. Aptly
+              nicknamed, <em>La Mosca</em> ("fly" in Spanish), we've been making annual trips there
+              for over a decade to love and serve alongside our friends. Really though, they're
+              family.
+            </p>
+          </div>
+        </div>
+        <div class="back">
+          <a href="#home" aria-label="link to top of the page"></a>
+          <p>Back to the top</p>
+        </div>
+      </section>
+    </main>
+    <script>
+      const sections = document.querySelectorAll('section');
+      const nav = document.querySelectorAll('nav a');
 
-		// Offset margin due to nav
-		// Low threshold because we're checking to see what % of the section is in view
-		// On mobile, some sections are pretty large, so something like .5 would never render it showing
-		// because at no point would 50% of the section's ENTIRE HEIGHT be in the viewport
-		const options = {
-			rootMargin: '-60px',
-			threshold: 0.05
-		}
+      // Offset margin due to nav
+      // Low threshold because we're checking to see what % of the section is in view
+      // On mobile, some sections are pretty large, so something like .5 would never render it showing
+      // because at no point would 50% of the section's ENTIRE HEIGHT be in the viewport
+      const options = {
+        rootMargin: '-60px',
+        threshold: 0.05,
+      };
 
-		// newer, slick way of checking to see if an element is in the viewport - not as well supported
-		const observer = new IntersectionObserver(entries => {
+      // newer, slick way of checking to see if an element is in the viewport - not as well supported
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
 
-			entries.forEach(entry => {
-				if (entry.isIntersecting) {
-					const id = entry.target.id
+            nav.forEach((item) => item.classList.remove('active-link'));
+            document.querySelector(`nav a[href*="${id}"`).classList.add('active-link');
+          }
+        });
+      }, options);
 
-					nav.forEach(item => item.classList.remove('active-link'))
-					document.querySelector(`nav a[href*="${id}"`).classList.add('active-link')
-				}
-			})
+      sections.forEach((section) => {
+        observer.observe(section);
+      });
 
-		}, options)
+      // Old style of revealing things; better support
+      const reveal = () => {
+        const revealElements = document.querySelectorAll('.reveal');
 
-		sections.forEach(section => {
-			observer.observe(section)
-		})
+        for (let i = 0; i < revealElements.length; i++) {
+          const windowHeight = window.innerHeight;
+          const elementTop = revealElements[i].getBoundingClientRect().top;
+          const elementVisibleAt = 150;
 
-		// Old style of revealing things; better support
-		const reveal = () => {
-			const revealElements = document.querySelectorAll('.reveal')
+          if (elementTop < windowHeight - elementVisibleAt) {
+            revealElements[i].classList.add('active');
+          } else {
+            revealElements[i].classList.remove('active');
+          }
+        }
+      };
 
-			for (let i = 0; i < revealElements.length; i++) {
-				const windowHeight = window.innerHeight
-				const elementTop = revealElements[i].getBoundingClientRect().top
-				const elementVisibleAt = 150
-
-				if (elementTop < windowHeight - elementVisibleAt) {
-					revealElements[i].classList.add('active')
-				} else {
-					revealElements[i].classList.remove('active')
-				}
-			}
-		}
-
-		window.addEventListener('scroll', reveal)
-	</script>
-</body>
-
+      window.addEventListener('scroll', reveal);
+    </script>
+  </body>
 </html>
